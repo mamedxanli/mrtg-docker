@@ -15,4 +15,5 @@ Deployment guide:
     5. answer "Yes" on MRTG setup
     6. Go to the browser of local host and check http://localhost/mrtg. Graphs should appear under the page.
     7. Add new hosts by altering setup.sh script, adding new ip addresses and rerun "mrtg /etc/mrtg.cfg" to make it read the new config.
+    8. All added hosts have to have snmp configured with proper community string and RO access.
 
