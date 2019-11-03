@@ -8,8 +8,8 @@ Deployment guide:
     1. Clone the repo
     2. build the image: 
     docker build -t mrtg:01 .
-    3. run the container as a daemon from the image where somepath is a local path to the repo and XX is image id: 
-    docker run -v /somepath/mrtg/scripts:/app -p 80:80 -dit XX
+    3. run the container as a daemon from the image where XXXXXXXXXXXX is a local path to the repo and YYYYYYYY is image id: 
+    docker run -v /XXXXXXXXXXXXX/mrtg/scripts:/app -p 80:80 -dit YYYYYYYYYYYYYYY
     4. login to container terminal and run setup script: 
     docker exec -it XX bash
     bash ./setup.sh
