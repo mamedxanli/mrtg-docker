@@ -10,14 +10,14 @@ mkdir /var/www/mrtg
 
 chown -R www-data:www-data /var/www/mrtg
 
-cfgmaker centisp@172.16.0.1
-cfgmaker centisp@172.16.0.2
-cfgmaker centisp@172.16.0.3
-cfgmaker centisp@172.16.0.4
-cfgmaker centisp@172.16.0.5
-cfgmaker centisp@172.16.0.18
-cfgmaker centisp@172.16.0.19
-cfgmaker centisp@172.16.0.21
+cfgmaker centisp@172.16.0.1 >> /etc/mrtg.cfg
+cfgmaker centisp@172.16.0.2 >> /etc/mrtg.cfg
+cfgmaker centisp@172.16.0.3 >> /etc/mrtg.cfg
+cfgmaker centisp@172.16.0.4 >> /etc/mrtg.cfg
+cfgmaker centisp@172.16.0.5 >> /etc/mrtg.cfg
+cfgmaker centisp@172.16.0.18 >> /etc/mrtg.cfg
+cfgmaker centisp@172.16.0.19 >> /etc/mrtg.cfg
+cfgmaker centisp@172.16.0.21 >> /etc/mrtg.cfg
 
 indexmaker /etc/mrtg.cfg > /var/www/mrtg/index.html
 
