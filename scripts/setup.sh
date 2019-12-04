@@ -18,6 +18,7 @@ cfgmaker centisp@172.16.0.5 >> /etc/mrtg.cfg
 cfgmaker centisp@172.16.0.18 >> /etc/mrtg.cfg
 cfgmaker centisp@172.16.0.19 >> /etc/mrtg.cfg
 cfgmaker centisp@172.16.0.21 >> /etc/mrtg.cfg
+cfgmaker centisp@172.16.0.254 >> /etc/mrtg.cfg
 
 indexmaker /etc/mrtg.cfg > /var/www/mrtg/index.html
 
