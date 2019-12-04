@@ -12,7 +12,6 @@ chown -R www-data:www-data /var/www/mrtg
 
 cfgmaker centisp@172.16.0.1 >> /etc/mrtg.cfg
 cfgmaker centisp@172.16.0.2 >> /etc/mrtg.cfg
-cfgmaker centisp@172.16.0.3 >> /etc/mrtg.cfg
 cfgmaker centisp@172.16.0.4 >> /etc/mrtg.cfg
 cfgmaker centisp@172.16.0.5 >> /etc/mrtg.cfg
 cfgmaker centisp@172.16.0.18 >> /etc/mrtg.cfg
