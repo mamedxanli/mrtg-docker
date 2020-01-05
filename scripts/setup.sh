@@ -2,6 +2,8 @@
 
 #installing mrtg
 #another line to test
+apt update
+apt upgrade
 apt install -y mrtg
 
 echo "rocommunity public localhost" >> /etc/snmp/snmpd.conf
