@@ -17,7 +17,7 @@ Deployment guide:
     6. Go to the browser of local host and check http://localhost/mrtg. Graphs should appear under the page.
     7. within the container run bash cronjob.sh & to update graphs every minute
     8. from /etc/mrtg.cfg remove interfaces you do not want to be monitored, then comment out existing hosts in ./setup.sh and rerun it.
-    8. Add new hosts by altering setup.sh script and rerunning it or by running the following from cli: 
+    9. Add new hosts by altering setup.sh script and rerunning it or by running the following from cli: 
     cfgmaker communityname@hostip >> /etc/mrtg
     indexmaker /etc/mrtg.cfg > /var/www/mrtg/index.html
     9. All added hosts have to have snmp configured with proper community string and RO access.
