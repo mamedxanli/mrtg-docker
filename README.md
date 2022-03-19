@@ -20,5 +20,5 @@ Deployment guide:
     9. Add new hosts by altering setup.sh script and rerunning it or by running the following from cli: 
     cfgmaker communityname@hostip >> /etc/mrtg
     indexmaker /etc/mrtg.cfg > /var/www/mrtg/index.html
-    9. All added hosts have to have snmp configured with proper community string and RO access.
+    10. All added hosts have to have snmp configured with proper community string and RO access.
 
